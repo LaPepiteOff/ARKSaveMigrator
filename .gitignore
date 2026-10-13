@@ -1,0 +1,30 @@
+# CMake : compilations hors des sources et fichiers generes
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+CMakeUserPresets.json
+
+# Produits de compilation C/C++ et fichiers de debogage
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.dSYM/
+
+# Configuration locale VS Code
+/.vscode/
+
+# macOS
+.DS_Store

@@ -1,0 +1,9 @@
+#pragma once
+
+#include <string_view>
+
+namespace ark_save_migrator {
+
+    inline constexpr std::string_view version = "@PROJECT_VERSION@";
+
+}
